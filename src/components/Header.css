@@ -1,0 +1,99 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    height: 92px;
+    border-bottom: 1px solid var(--soft);
+    background: color-mix(in srgb, var(--paper) 92%, transparent);
+    backdrop-filter: blur(10px);
+}
+
+.header-inner {
+    max-width: 1120px;
+    height: 100%;
+    margin: 0 auto;
+    padding-inline: clamp(24px, 5vw, 72px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.header_logo {
+    width: 68px;
+    height: 47px;
+    display: block;
+    object-fit: contain;
+}
+
+.header_logo svg {
+    width: 100%;
+    height: 100%;
+}
+
+.theme-dark .header_logo path:not([fill]) {
+    fill: var(--ink);
+}
+
+.brand-copy {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    white-space: nowrap;
+}
+
+.brand-copy strong {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: .16em;
+}
+
+.brand-copy strong span { color: var(--accent); }
+
+.brand-copy small {
+    color: var(--muted);
+    font-family: Arial, sans-serif;
+    font-size: 9px;
+    letter-spacing: .34em;
+    text-transform: uppercase;
+}
+
+.navigation {
+    display: flex;
+    gap: clamp(20px, 4vw, 48px);
+    margin-left: auto;
+    margin-right: 34px;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+}
+
+.navigation a, .text-link { transition: color .2s ease; }
+.navigation a:hover, .text-link:hover { color: var(--accent); }
+
+.theme-toggle {
+    border: 1px solid var(--soft);
+    background: transparent;
+    color: var(--ink);
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 1;
+}
+
+@media (max-width: 640px) {
+    .header { height: 76px; }
+    .header_logo { width: 48px; height: 34px; }
+    .brand { gap: 8px; }
+    .brand-copy strong { font-size: 11px; }
+    .brand-copy small { font-size: 6px; }
+    .navigation { gap: 13px; margin-right: 15px; font-size: 9px; }
+}
