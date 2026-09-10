@@ -1,4 +1,3 @@
-import React from 'react'
 import './Hero.css'
 
 export default function Hero() {
@@ -15,7 +14,7 @@ export default function Hero() {
         <div className="code-line code-line-h">signal.<i>shape</i>(clarity, rhythm)</div>
       </div>
       <div className="hero-content">
-        <p className="eyebrow">Diseno & desarrollo digital <span>●</span> Santiago, CL</p>
+        <p className="eyebrow">Design & digital development <span>●</span> Santiago, CL</p>
         <h1>Ideas claras.<br /><em>Experiencias</em> que quedan.</h1>
         <div className="hero-footer">
           <p className="intro">Creo productos digitales con intencion, desde la primera conversacion hasta el ultimo detalle de codigo.</p>
