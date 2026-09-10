@@ -4,7 +4,7 @@
     min-height: min(720px, calc(100svh - 92px));
     display: flex;
     align-items: center;
-    padding: clamp(90px, 15vw, 180px) 0 clamp(92px, 13vw, 150px);
+    padding: clamp(45px, 7vw, 90px) 0 clamp(92px, 13vw, 150px);
     border-bottom: 1px solid var(--soft);
     overflow: hidden;
 }
