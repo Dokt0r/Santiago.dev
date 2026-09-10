@@ -11,6 +11,8 @@ export default function Hero() {
         <div className="code-line code-line-d">&lt;strong&gt;ideas claras&lt;/strong&gt;</div>
         <div className="code-line code-line-e">function <i>makeSimple</i>(complexity) {'{'}</div>
         <div className="code-line code-line-f">  complexity.<b>reduce</b>(until: clarity)</div>
+        <div className="code-line code-line-g">systems.map(<b>story</b> =&gt; launch)</div>
+        <div className="code-line code-line-h">signal.<i>shape</i>(clarity, rhythm)</div>
       </div>
       <div className="hero-content">
         <p className="eyebrow">Diseno & desarrollo digital <span>●</span> Santiago, CL</p>

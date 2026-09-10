@@ -21,7 +21,8 @@
 * { box-sizing: border-box; }
 
 main { 
-    max-width: 1120px; 
+    width: 100%; 
+    max-width: none; 
     margin: 0 auto; 
     padding-inline: clamp(24px, 5vw, 72px); 
 }

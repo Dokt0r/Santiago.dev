@@ -9,7 +9,7 @@
 }
 
 .header-inner {
-    max-width: 1120px;
+    max-width: 100%;
     height: 100%;
     margin: 0 auto;
     padding-inline: clamp(24px, 5vw, 72px);
